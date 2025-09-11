@@ -1,0 +1,133 @@
+.homepage-article-flex .homepage-article-image-wrapper {
+	background: none !important;
+	border: none !important;
+	box-shadow: none !important;
+	padding: 0 !important;
+}
+.homepage-article-flex {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+/* For article with image inside the frame */
+.homepage-article-content-with-image {
+	display: flex;
+	align-items: stretch;
+	padding: 0;
+}
+
+.homepage-article-content-text {
+	flex: 1;
+	padding: 30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.homepage-article-image-wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 16px 24px 16px 0;
+}
+
+.homepage-article-image {
+	width: 120px;
+	height: 120px;
+	object-fit: cover;
+	border-radius: 16px;
+}
+/* For article with image */
+.homepage-article-with-image {
+	display: flex;
+	align-items: stretch;
+	margin-bottom: 30px;
+}
+
+.homepage-article-image-wrapper {
+	display: flex;
+	align-items: center;
+	margin-right: 24px;
+	background: #fff;
+	border: 1px solid #e0e0e0;
+	border-radius: 20px;
+	padding: 16px;
+	height: 100%;
+}
+
+.homepage-article-image {
+	width: 120px;
+	height: 120px;
+	object-fit: cover;
+	border-radius: 16px;
+}
+
+.homepage-article-wrapper {
+	flex: 1;
+	display: flex;
+	align-items: stretch;
+}
+@import "../../../data/styles.css";
+
+.homepage-article {
+	width: 90%;
+	mix-blend-mode: normal;
+	border-radius: 20px;
+	opacity: 1;
+}
+
+/* Make the second article (with homepage-article-fullwidth) span full width with equal margins */
+.homepage-article-fullwidth {
+	width: 100% !important;
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+}
+
+
+
+.homepage-article-content {
+	padding: 30px;
+	border: 1px solid #e0e0e0;
+	border-radius: 20px;
+	background: #fff;
+}
+
+.homepage-article-date {
+	opacity: 1;
+	color: var(--tertiary-color);
+	font-size: 12px;
+	margin-bottom: 1em;
+}
+
+.homepage-article-title {
+	opacity: 1;
+	color: var(--primary-color);
+	font-size: 16px;
+	margin-bottom: 1em;
+	font-weight: 700;
+}
+
+.homepage-article-description {
+	opacity: 1;
+	color: var(--secondary-color);
+	font-size: 12px;
+	line-height: 1.5;
+}
+
+.homepage-article-link {
+	opacity: 1;
+	padding-top: 20px;
+	font-size: 15px;
+	font-weight: 700;
+}
+
+.homepage-article-link a {
+	color: var(--link-color);
+	text-decoration: none;
+}
+
+@media (max-width: 600px) {
+	.homepage-article {
+		width: 100%;
+	}
+}
