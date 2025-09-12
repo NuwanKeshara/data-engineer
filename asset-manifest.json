@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/DataEngineer/static/css/main.cbd9e4ae.css",
-    "main.js": "/DataEngineer/static/js/main.141d0d10.js",
-    "static/js/787.512dd3f2.chunk.js": "/DataEngineer/static/js/787.512dd3f2.chunk.js",
-    "index.html": "/DataEngineer/index.html",
-    "main.cbd9e4ae.css.map": "/DataEngineer/static/css/main.cbd9e4ae.css.map",
-    "main.141d0d10.js.map": "/DataEngineer/static/js/main.141d0d10.js.map",
-    "787.512dd3f2.chunk.js.map": "/DataEngineer/static/js/787.512dd3f2.chunk.js.map"
+    "main.css": "/data-engineer/static/css/main.cbd9e4ae.css",
+    "main.js": "/data-engineer/static/js/main.d595da3d.js",
+    "static/js/787.512dd3f2.chunk.js": "/data-engineer/static/js/787.512dd3f2.chunk.js",
+    "index.html": "/data-engineer/index.html",
+    "main.cbd9e4ae.css.map": "/data-engineer/static/css/main.cbd9e4ae.css.map",
+    "main.d595da3d.js.map": "/data-engineer/static/js/main.d595da3d.js.map",
+    "787.512dd3f2.chunk.js.map": "/data-engineer/static/js/787.512dd3f2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cbd9e4ae.css",
-    "static/js/main.141d0d10.js"
+    "static/js/main.d595da3d.js"
   ]
 }
