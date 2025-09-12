@@ -1,14 +1,7 @@
 {
-	"homepage": "https://NuwanKeshara.github.io/data-engineer",
 	"name": "reactfolio",
 	"version": "1.1.0",
 	"description": "Personal portfolio built using Reactjs",
-	"author": {
-		"name": "Nuwan Keshara",
-		"email": "nuwankeshara12@gmail.com",
-		"url": "https://nuwankeshara.github.io/"
-	},
-	"license": "MIT",
 	"private": true,
 	"dependencies": {
 		"@fortawesome/fontawesome-svg-core": "^6.4.0",
@@ -30,8 +23,6 @@
 	},
 	"scripts": {
 		"start": "react-scripts start",
-		"predeploy": "npm run build",
-		"deploy": "gh-pages -d build",
 		"build": "react-scripts build",
 		"test": "react-scripts test",
 		"eject": "react-scripts eject"
@@ -57,8 +48,5 @@
 	"prettier": {
 		"useTabs": true,
 		"tabWidth": 4
-	},
-	"devDependencies": {
-		"gh-pages": "^6.3.0"
 	}
 }
