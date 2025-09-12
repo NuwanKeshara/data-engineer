@@ -65,12 +65,12 @@ const Homepage = () => {
 
 	// 🔹 Add different images for each article
 	const articleImages = [
-		"/spark.webp",
-		"/iot.jpg",
-		"/datavault.webp",
-		"/datawarehouse.webp",
-		"/scd.webp",
-		"/advancesql.webp",
+		"spark.webp",
+		"iot.jpg",
+		"datavault.webp",
+		"datawarehouse.webp",
+		"scd.webp",
+		"advancesql.webp",
 	];
 
 	return (
