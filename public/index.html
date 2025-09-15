@@ -6,6 +6,23 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta name="theme-color" content="#000000" />
 		<title>Reactfolio</title>
+		<link rel="preload" as="image" href="%PUBLIC_URL%/temp2.png" />
+		<style>
+			/* Global background image visible in side gutters */
+			body {
+				background-image: url("%PUBLIC_URL%/temp2.png");
+				background-size: cover;
+				background-position: center;
+				background-repeat: no-repeat;
+				background-attachment: fixed;
+			}
+
+			@media (max-width: 800px) {
+				body {
+					background-attachment: scroll;
+				}
+			}
+		</style>
 	</head>
 	<body>
 		<noscript>You need to enable JavaScript to run this app.</noscript>
