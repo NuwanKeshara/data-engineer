@@ -1,7 +1,8 @@
 .articles-logo-container {
 	display: flex;
 	justify-content: left;
-	padding-top: 25px;
+	padding-top: 10px;
+	margin-top: 0px;
 }
 
 .articles-logo {
@@ -18,7 +19,8 @@
 	flex-direction: column;
 	height: 100%;
 	margin: 0;
-	padding-top: 120px;
+	padding-top: 10px;
+	margin-top: 0px;
 }
 
 .articles-container {
@@ -39,6 +41,7 @@
 	padding-bottom: 20px;
 	border-left: 2px solid #f4f4f5;
 	width: 100%;
+	margin-bottom: 40px;
 }
 
 @media (max-width: 1024px) {
@@ -48,5 +51,28 @@
 
 	.articles-subtitle {
 		width: 100% !important;
+	}
+	
+	.articles-article {
+		padding-left: 20px;
+		margin-bottom: 30px;
+	}
+}
+
+@media (max-width: 768px) {
+	.articles-main-container {
+		padding-top: 10px;
+		margin-top: 0px;
+	}
+	
+	.articles-wrapper {
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+	
+	.articles-article {
+		padding-left: 15px;
+		margin-bottom: 25px;
+		border-left: 1px solid #f4f4f5;
 	}
 }

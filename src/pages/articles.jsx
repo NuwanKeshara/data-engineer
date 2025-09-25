@@ -130,20 +130,31 @@ const Articles = () => {
 
                         <div className="articles-container">
                             <div className="articles-wrapper">
-                                {myArticles.map((article, index) => (
-                                    <div
-                                        className="articles-article"
-                                        key={(index + 1).toString()}
-                                    >
-                                        <Article
+                                {myArticles.map((article, index) => {
+                                    const articleImages = [
+                                        "spark.webp",
+                                        "iot.jpg",
+                                        "datavault.webp",
+                                        "datawarehouse.webp",
+                                        "scd.webp",
+                                        "advancesql.webp",
+                                    ];
+                                    return (
+                                        <div
+                                            className="articles-article"
                                             key={(index + 1).toString()}
-                                            date={article().date}
-                                            title={article().title}
-                                            description={article().description}
-                                            link={article().link}
-                                        />
-                                    </div>
-                                ))}
+                                        >
+                                            <Article
+                                                key={(index + 1).toString()}
+                                                date={article().date}
+                                                title={article().title}
+                                                description={article().description}
+                                                link={article().link}
+                                                image={articleImages[index]}
+                                            />
+                                        </div>
+                                    );
+                                })}
                             </div>
                         </div>
                     </div>

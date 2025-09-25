@@ -14,7 +14,11 @@ const Project = (props) => {
 				<Link to={link}>
 					<div className="project-container">
 						<div className="project-logo">
-							<img src={logo} alt="logo" />
+							{Array.isArray(logo)
+								? logo.map((src, idx) => (
+									<img key={idx} src={src} alt="logo" />
+								))
+								: <img src={logo} alt="logo" />}
 						</div>
 						<div className="project-title">{title}</div>
 						<div className="project-description">{description}</div>

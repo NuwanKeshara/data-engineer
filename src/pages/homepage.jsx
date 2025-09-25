@@ -8,13 +8,10 @@ import { faGithub, faLinkedin, faMedium } from "@fortawesome/free-brands-svg-ico
 import Logo from "../components/common/logo";
 import Footer from "../components/common/footer";
 import NavBar from "../components/common/navBar";
-import Article from "../components/homepage/article";
 import Works from "../components/homepage/works";
-import AllProjects from "../components/projects/allProjects";
 
 import INFO from "../data/user";
 import SEO from "../data/seo";
-import myArticles from "../data/articles";
 
 import "./styles/homepage.css";
 
@@ -63,15 +60,6 @@ const Homepage = () => {
 		boxShadow: stayLogo ? "0px 4px 10px rgba(0, 0, 0, 0.25)" : "none",
 	};
 
-	// 🔹 Add different images for each article
-	const articleImages = [
-		"spark.webp",
-		"iot.jpg",
-		"datavault.webp",
-		"datawarehouse.webp",
-		"scd.webp",
-		"advancesql.webp",
-	];
 
 	return (
 		<React.Fragment>
@@ -168,67 +156,6 @@ const Homepage = () => {
 							<Works />
 						</div>
 
-						<div className="homepage-projects">
-							<AllProjects />
-						</div>
-
-						<div className="homepage-after-title">
-							<div className="homepage-articles">
-								{myArticles.map((article, index) => {
-									const art = article();
-									const link = art.link || "";
-									const external = link.startsWith("http");
-									return (
-										<div
-											className="homepage-article homepage-article-flex"
-											key={(index + 1).toString()}
-										>
-											<div
-												className="homepage-article-content-text"
-												style={{
-													flex: 1,
-													display: "flex",
-													flexDirection: "column",
-													justifyContent: "center",
-													padding: 30,
-												}}
-											>
-												<Article
-													key={(index + 1).toString()}
-													date={art.date}
-													title={art.title}
-													description={art.description}
-													link={link}
-													external={external}
-												/>
-											</div>
-											<div
-												className="homepage-article-image-wrapper"
-												style={{
-													display: "flex",
-													alignItems: "center",
-													justifyContent: "center",
-													marginRight: 30,
-												}}
-											>
-												<img
-													src={articleImages[index]} // 🔹 Different image for each article
-													alt={`article visual ${index + 1}`}
-													className="homepage-article-image"
-													style={{
-														height: 220,
-														width: "auto",
-														maxWidth: 300,
-														objectFit: "cover",
-														borderRadius: 16,
-													}}
-												/>
-											</div>
-										</div>
-									);
-								})}
-							</div>
-						</div>
 
 						<div className="page-footer">
 							<Footer />
