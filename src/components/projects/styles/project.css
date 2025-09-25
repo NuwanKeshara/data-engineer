@@ -23,11 +23,15 @@
 }
 
 .project-logo {
-	width: 30px;
+	display: flex;
+	align-items: center;
+	gap: 8px;
 }
 
 .project-logo img {
-	width: 100%;
+	width: 26px;
+	height: 26px;
+	object-fit: contain;
 }
 
 .project-title {

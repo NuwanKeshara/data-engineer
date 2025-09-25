@@ -6,13 +6,18 @@ import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
 import "./style/article.css";
 
 const Article = (props) => {
-	const { date, title, description, link } = props;
+	const { date, title, description, link, image } = props;
 
 	return (
 		<React.Fragment>
 			<div className="article">
 				<div className="article-left-side">
 					<div className="article-date">{date}</div>
+					{image && (
+						<div className="article-image">
+							<img src={`/${image}`} alt={title} />
+						</div>
+					)}
 				</div>
 
 				<Link to={link}>
