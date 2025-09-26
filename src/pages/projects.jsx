@@ -39,7 +39,7 @@ const Projects = () => {
 					</div>
 					<div className="projects-container">
 						<div className="title projects-title">
-							Some of my data stuff...
+							Some of my data projects...
 						</div>
 
 						<div className="subtitle projects-subtitle">
