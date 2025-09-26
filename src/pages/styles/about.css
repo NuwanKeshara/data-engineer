@@ -54,7 +54,7 @@
 	overflow: hidden;
 	width: 100%;
 	border-radius: 10%;
-	transform: rotate(3deg);
+	transform: rotate(0deg);
 }
 
 .about-image-wrapper img {
