@@ -21,7 +21,7 @@ const INFO = {
 	about: {
 		title: "Hi! I’m Nuwan Keshara. I love learning and building big data stuff.",
 		description:
-			"Hi, I’m a Data Engineer who’s genuinely passionate about all things about data 💻. I love diving deep into how big data systems are built and how they scale. Right now, I’m reading about Designing Data-Intensive Applications by Martin Kleppmann 📖. If you’ve read it or have some great data books to recommend, please reach out I can happily chat anything about data 🤓. Other than data, I’m like sports and the outdoors 🌍. I have competed and won some 🏆 in swimming 🏊, enjoy cycling 🚴 and love nature 🌲. It really keeps me balanced and alive. ",
+			"Hi, I’m a Data Engineer who’s genuinely passionate about all things about data 💻. I love diving deep into how big data systems are built and how they scale. Right now, I’m reading about Designing Data Intensive Applications by Martin Kleppmann 📖. If you have read it or have some great data books to recommend, please reach out we can happily chat about data 🤓. Other than data, I like sports and outdoors 🌍. I have competed and won some 🏆 in swimming 🏊, enjoy cycling 🚴 and love nature 🌲. It really keeps me balanced and alive. ",
 	},
 
 	articles: {

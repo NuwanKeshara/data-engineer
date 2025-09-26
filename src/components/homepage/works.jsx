@@ -51,7 +51,7 @@ const Works = () => {
 			<div className="work-highlights">
 				<div className="highlight-title">Work Highlights</div>
 				<div className="highlight-images">
-					<img src="/labs3.jpg" alt="Work highlight 1" className="highlight-image" />
+					<img src="/labs4.jpg" alt="Work highlight 1" className="highlight-image" />
 					<img src="/labs2.jpg" alt="Work highlight 2" className="highlight-image" />
 					<img src="/labs.jpg" alt="Work highlight 3" className="highlight-image" />
 					<img src="/adl.jpg" alt="Work highlight 4" className="highlight-image" />
