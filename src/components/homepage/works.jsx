@@ -43,7 +43,7 @@ const Works = () => {
 							/>
 							<div className="work-title">BlackSwan Technologies</div>
 							<div className="work-subtitle">Data Engineer</div>
-							<div className="work-duration">August 2020 - January 2023</div>
+					<div className="work-duration">August 2021 - January 2023</div>
 						</div>
 					</div>
 				}
