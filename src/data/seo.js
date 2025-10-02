@@ -28,10 +28,10 @@ const SEO = [
 	},
 
 	{
-		page: "contact",
+		page: "certifications",
 		description:
-			"If you're interested in connecting with me, feel free to reach out to me. I'm always open to new ideas and opportunities.",
-		keywords: ["Nuwan", "Keshara"],
+			"Explore my professional certifications that reflect my continuous learning and growth.",
+		keywords: ["Nuwan", "Keshara", "certifications", "credentials"],
 	},
 ];
 

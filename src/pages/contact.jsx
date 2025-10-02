@@ -4,24 +4,23 @@ import { Helmet } from "react-helmet";
 import NavBar from "../components/common/navBar";
 import Footer from "../components/common/footer";
 import Logo from "../components/common/logo";
-import Socials from "../components/about/socials";
 
 import INFO from "../data/user";
 import SEO from "../data/seo";
 
 import "./styles/contact.css";
 
-const Contact = () => {
+const Certifications = () => {
 	useEffect(() => {
 		window.scrollTo(0, 0);
 	}, []);
 
-	const currentSEO = SEO.find((item) => item.page === "contact");
+	const currentSEO = SEO.find((item) => item.page === "certifications");
 
 	return (
 		<React.Fragment>
 			<Helmet>
-				<title>{`Contact | ${INFO.main.title}`}</title>
+				<title>{`Certifications | ${INFO.main.title}`}</title>
 				<meta name="description" content={currentSEO.description} />
 				<meta
 					name="keywords"
@@ -30,7 +29,7 @@ const Contact = () => {
 			</Helmet>
 
 			<div className="page-content">
-				<NavBar active="contact" />
+				<NavBar active="certifications" />
 				<div className="content-wrapper">
 					<div className="contact-logo-container">
 						<div className="contact-logo">
@@ -39,29 +38,55 @@ const Contact = () => {
 					</div>
 
 					<div className="contact-container">
-						<div className="title contact-title">
-							Let's Get in Touch: Ways to Connect with Me
-						</div>
+						<div className="title contact-title">My Professional Certifications</div>
 
 						<div className="subtitle contact-subtitle">
-							Thank you for your interest in getting in touch with
-							me. I welcome your feedback, questions and
-							suggestions. If you have a specific question or
-							comment, please feel free to email me directly at
-							&nbsp;{" "}
-							<a href={`mailto:${INFO.main.email}`}>
-								{INFO.main.email}
-							</a>
-							. I make an effort to respond to all messages as quickly as possible. Finally, if you prefer to connect on
-							social media. I post regular updates there, so don't hesitate to reach out.
-							Thanks again for your interest and I look forward
-							to hearing from you!
+							Thank you for taking the time to explore my certifications. Each one represents a step in my journey as a data engineer and reflects my commitment to continuous learning and professional growth.
+
+							I believe certifications are not just credentials, but proof of the skills, effort and curiosity I have put into stay connected with world of technology. I will continue to update this page as I pursue new challenges and expand my expertise.
 						</div>
 					</div>
 
-					<div className="socials-container">
-						<div className="contact-socials">
-							<Socials />
+					<div className="certifications-grid">
+						<div className="cert-card">
+							<img src="/databricks certification.png" alt="Databricks Certified Data Engineer Associate" />
+							<div className="cert-name">Databricks Certified Data Engineer Associate</div>
+						</div>
+						<div className="cert-card">
+							<img src="/fabric certification.png" alt="Microsoft Certified: Fabric Data Engineer Associate" />
+							<div className="cert-name">Microsoft Certified: Fabric Data Engineer Associate</div>
+						</div>
+						<div className="cert-card">
+							<img src="/m1.png" alt="Explore Core Data Concepts in Microsoft Azure" />
+							<div className="cert-name">Explore Core Data Concepts in Microsoft Azure</div>
+						</div>
+						<div className="cert-card">
+							<img src="/m2.png" alt="Microsoft Azure Cosmos DB" />
+							<div className="cert-name">Microsoft Azure Cosmos DB</div>
+						</div>
+						<div className="cert-card">
+							<img src="/d1.png" alt="Databricks Lakehouse Fundamentals" />
+							<div className="cert-name">Databricks Lakehouse Fundamentals</div>
+						</div>
+						<div className="cert-card">
+							<img src="/d2.png" alt="Databricks Generative AI Fundamentals" />
+							<div className="cert-name">Databricks Generative AI Fundamentals</div>
+						</div>
+						<div className="cert-card">
+							<img src="/dl2.png" alt="DeepLearning.AI : Neural Networks and Deep Learning" />
+							<div className="cert-name">DeepLearning.AI : Neural Networks and Deep Learning</div>
+						</div>
+						<div className="cert-card">
+							<img src="/dl1.png" alt="DeepLearning.AI : Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization" />
+							<div className="cert-name">DeepLearning.AI : Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization</div>
+						</div>
+						<div className="cert-card">
+							<img src="/sap1.png" alt="Data Modeling with SAP Solutions - Record of Achievement" />
+							<div className="cert-name">Data Modeling with SAP Solutions - Record of Achievement</div>
+						</div>
+						<div className="cert-card">
+							<img src="/sap2.png" alt="SAP Analytics Cloud - Record of Achievement" />
+							<div className="cert-name">SAP Analytics Cloud - Record of Achievement</div>
 						</div>
 					</div>
 
@@ -74,4 +99,4 @@ const Contact = () => {
 	);
 };
 
-export default Contact;
+export default Certifications;
