@@ -37,3 +37,41 @@
 	justify-content: flex-start;
 	align-items: center;
 }
+
+/* Certifications grid */
+.certifications-grid {
+	display: grid;
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+	gap: 24px;
+	margin-top: 40px;
+}
+
+.cert-card {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+	padding: 12px;
+	border: 1px solid rgba(255, 255, 255, 0.2);
+	border-radius: 8px;
+	background: rgba(255, 255, 255, 0.03);
+}
+
+.cert-card img {
+	max-width: 100%;
+	height: auto;
+	border-radius: 4px;
+	box-shadow: 0 2px 8px rgba(0,0,0,0.25);
+}
+
+.cert-name {
+	margin-top: 10px;
+	text-align: center;
+	font-weight: 600;
+}
+
+@media (max-width: 800px) {
+	.certifications-grid {
+		grid-template-columns: 1fr;
+	}
+}
