@@ -1,5 +1,3 @@
-import React from "react";
-
 function article_1() {
 	return {
 		date: "1 September 2025",

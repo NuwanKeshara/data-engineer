@@ -15,7 +15,7 @@ const INFO = {
 	homepage: {
 		title: "Data Engineering | Big Data | Cloud",
 		description:
-			"Hi 👋, I am Nuwan Keshara, a passionate Data Engineer with years of experience designing and deploying scalable data pipelines, ETL processes and BI solutions. Highly skilled in Python, SQL and Spark with success of delivering automated reports, interactive dashboards and optimized data workflows. Capable of building end to end data engineering solutions that drive business intelligence and decision making.",
+			"Hi 👋, I’m Nuwan Keshara, a passionate Data Engineer with a few years of hands-on experience designing and deploying scalable data pipelines, ETL processes and BI solutions. I love working with Python, SQL and Spark to turn messy data into meaningful insights through automation, optimized workflows and interactive dashboards. I enjoy building end-to-end data solutions that empower smarter decisions and drive real business impact.",
 	},
 
 	about: {
