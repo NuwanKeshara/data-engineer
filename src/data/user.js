@@ -34,7 +34,7 @@ const INFO = {
 		{
 			title: "IOT Real-time processing with Azure Databricks",
 			description:
-				"This project builds a real-time IoT data pipeline on Azure Databricks, ingesting weather sensor data via IoT Hub to Event Hub and storing it using the Medallion Architecture (Bronze/Silver/Gold) in Delta Lake. It includes streaming transformations, aggregation and cleansed data storage, with visualization in Power BI and CI versioning via Git and Azure DevOps.",
+				<>This project builds a real-time IoT data pipeline on Azure Databricks, ingesting weather sensor data via IoT Hub to Event Hub and storing it using the Medallion Architecture (Bronze/Silver/Gold) in Delta Lake. It includes streaming transformations, aggregation and cleansed data storage, with visualization in Power BI and CI versioning via Git and Azure DevOps.<br /><br /> Tech stack: <b>Python, SQL, DBT, Docker, Airflow, BigQuery</b></>,
 			logo: [
 				"/databricks.jpg",
 				"/spark.webp",
@@ -47,7 +47,7 @@ const INFO = {
 		{
 			title: "Snowflake Data Vault 2.0",
 			description:
-				"This project implements a scalable Data Vault 2.0 architecture on Snowflake, using the snowflake_sample_data.tpch_sf10 schema with millions of records across Customer, Orders, Region and Nation tables. It builds stages: Staging, Raw DV, Business DV and delivers a star schema dimensional model for analytics. Key components include SnowPipe, Streams and Tasks for near-real-time ingestion and transformation.",
+				<>This project implements a scalable Data Vault 2.0 architecture on Snowflake, using the snowflake_sample_data.tpch_sf10 schema with millions of records across Customer, Orders, Region and Nation tables. It builds stages: Staging, Raw DV, Business DV and delivers a star schema dimensional model for analytics. Key components include SnowPipe, Streams and Tasks for near-real-time ingestion and transformation.<br /><br /> Tech stack: <b>Python, SQL, DBT, Docker, Airflow, BigQuery</b></>,
 			logo: [
 				"/snowflake.webp",
 				"/datavault.png",
@@ -59,7 +59,7 @@ const INFO = {
 		{
 			title: "Movie Ticket DataWarehouse",
 			description:
-				"This project focuses on building a data warehouse and generating insightful reports from a dataset of customer movie theater bookings within the United States. Dataset is taken from Kaggle and it includes 2 CSV files. The objective is to build a datawarehouse from the ground up, enabling users to extract meaningful business intelligence through the comprehensive reports.",
+				<>This project focuses on building a data warehouse and generating insightful reports from a dataset of customer movie theater bookings within the United States. Dataset is taken from Kaggle and it includes 2 CSV files. The objective is to build a datawarehouse from the ground up, enabling users to extract meaningful business intelligence through the comprehensive reports.<br /><br /> Tech stack: <b>Python, SQL, DBT, Docker, Airflow, BigQuery</b></>,
 			logo: [
 				"/sqlserver.jpg",
 				"/model.png",
@@ -70,7 +70,7 @@ const INFO = {
 		{
 			title: "SmartTemp: IOT Based Smart Temperature Predictor",
 			description:
-				"IoT Based Temperature Prediction System: Designed and developed an IoT based system to monitor and predict ambient temperature, integrating sensors to collect real-time temperature data. Developed a motion based mechanism (gauge) to indicate temperature fluctuations to visualize current temperature readings. Time Series Forecasting: Utilized a time series algorithm to forecast temperature values for the next 30 days by leveraging historical seasonal temperature data to improve prediction accuracy.",
+				<>IoT Based Temperature Prediction System: Designed and developed an IoT based system to monitor and predict ambient temperature, integrating sensors to collect real-time temperature data. Developed a motion based mechanism (gauge) to indicate temperature fluctuations to visualize current temperature readings. Time Series Forecasting: Utilized a time series algorithm to forecast temperature values for the next 30 days by leveraging historical seasonal temperature data to improve prediction accuracy.<br /><br /> Tech stack: <b>Python, SQL, DBT, Docker, Airflow, BigQuery</b></>,
 			logo: [
 				"/aws.png",
 				"/kafka.png",
@@ -83,7 +83,7 @@ const INFO = {
 		{
 			title: "Bank Marketing Analysis and Loan Prediction System using Clustering and Classification",
 			description:
-				"This project delivers a bank marketing and loan prediction system, integrating clustering and classification for customer segmentation and risk assessment. Campaign data is processed to extract insights while a predictive model estimates loan approval risks. A web interface enables real-time customer data input, supporting data-driven marketing, efficient decision-making and improved risk management.",
+				<>This project delivers a bank marketing and loan prediction system, integrating clustering and classification for customer segmentation and risk assessment. Campaign data is processed to extract insights while a predictive model estimates loan approval risks. A web interface enables real-time customer data input, supporting data-driven marketing, efficient decision-making and improved risk management.<br /><br /> Tech stack: <b>Python, SQL, DBT, Docker, Airflow, BigQuery</b></>,
 			logo: [
 				"/tensorflow.png",
 				"/flask.png",
@@ -95,12 +95,12 @@ const INFO = {
 		{
 			title: "Smartly: Ad Campaign DataFlow",
 			description:
-				"Ad Campaign Dataflow Pipeline: Built a fully automated data pipeline that ingests ad campaign CSVs, transforms and cleans data, then loads into GCP BigQuery for analytics. Data Transformation & Orchestration: used DBT models and Airflow DAGs to clean, validate and transform raw data into structured schemas optimized for reporting and downstream tools. \nTech stack: Python, SQL, DBT, Docker, Airflow, BigQuery",
+			<>Ad Campaign Dataflow Pipeline: Built a fully automated data pipeline that ingests ad campaign CSV, transforms and cleans data, then loads into GCP BigQuery for analytics. Data Transformation & Orchestration: used DBT models and Airflow DAGs to clean, validate and transform raw data into structured schemas optimized for reporting and downstream tools.<br /><br /> Tech stack: <b>Python, SQL, DBT, Docker, Airflow, BigQuery</b></>,
+				
 			logo: [
-				"/aws.png",
-				"/kafka.png",
-				"/mqtt.png",
-				"/raspberrypi.png",
+				"/big query.jpg",
+				"/airflow.png",
+				"/dbt-logo.webp"
 			],
 			linkText: "View Project",
 			link: "https://github.com/NuwanKeshara/Ad-Campaign-Dataflow",
