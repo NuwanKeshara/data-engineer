@@ -21,7 +21,7 @@ const INFO = {
 	about: {
 		title: "Hi! I’m Nuwan Keshara. I love learning and building big data stuff.",
 		description:
-			"Hi, I’m a Data Engineer who’s genuinely passionate about all things about data 💻. I love diving deep into how big data systems are built and how they scale. Right now, I’m reading about Designing Data Intensive Applications by Martin Kleppmann 📖. If you have read it or have some great data books to recommend, please reach out we can happily chat about data 🤓. Other than data, I like sports and outdoors 🌍. I have competed and won some 🏆 in swimming 🏊, enjoy cycling 🚴 and love nature 🌲. It really keeps me balanced and alive. If we have something in common, please don't forget to connect with me. See you around !!!",
+			"Hi, I’m a Data Engineer who’s genuinely passionate about all things about data. I love diving deep into how big data systems are built and how they scale. Right now, I’m reading about Designing Data Intensive Applications by Martin Kleppmann 📖. If you have read it or have some great data books to recommend, please reach out we can happily chat about data. Other than data, I love sports and outdoors. I have competed and won some 🏆 in swimming 🏊, enjoy cycling and love nature 🌲. It really keeps me balanced and alive. If we have something in common, please don't forget to connect with me. See you around 🤓!!!",
 	},
 
 	articles: {
@@ -92,7 +92,19 @@ const INFO = {
 			linkText: "View Project",
 			link: "https://github.com/NuwanKeshara",
 		},
-		
+		{
+			title: "SmartTemp: IOT Based Smart Temperature Predictor",
+			description:
+				"IoT Based Temperature Prediction System: Designed and developed an IoT based system to monitor and predict ambient temperature, integrating sensors to collect real-time temperature data. Developed a motion based mechanism (gauge) to indicate temperature fluctuations to visualize current temperature readings. Time Series Forecasting: Utilized a time series algorithm to forecast temperature values for the next 30 days by leveraging historical seasonal temperature data to improve prediction accuracy.",
+			logo: [
+				"/aws.png",
+				"/kafka.png",
+				"/mqtt.png",
+				"/raspberrypi.png",
+			],
+			linkText: "View Project",
+			link: "https://github.com/NuwanKeshara",
+		},
 	],
 };
 
