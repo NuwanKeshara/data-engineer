@@ -21,7 +21,7 @@ const Works = () => {
 							/>
 							<div className="work-title">Sysco LABS Sri Lanka</div>
 							<div className="work-subtitle">Engineer - Data Engineering</div>
-							<div className="work-duration">April 2024 - August 2024</div>
+							<div className="work-duration"></div>
 						</div>
 
 						<div className="work">
@@ -32,7 +32,7 @@ const Works = () => {
 							/>
 							<div className="work-title">Axiata Digital Labs</div>
 							<div className="work-subtitle">Data Engineer</div>
-							<div className="work-duration">December 2022 - December 2023</div>
+							<div className="work-duration"></div>
 						</div>
 
 						<div className="work">
@@ -43,7 +43,7 @@ const Works = () => {
 							/>
 							<div className="work-title">BlackSwan Technologies</div>
 							<div className="work-subtitle">Data Engineer</div>
-					<div className="work-duration">February 2021 - December 2022</div>
+					<div className="work-duration"></div>
 						</div>
 					</div>
 				}
