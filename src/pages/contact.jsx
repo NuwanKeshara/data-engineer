@@ -52,9 +52,23 @@ const Certifications = () => {
 							<img src="/databricks certification.png" alt="Databricks Certified Data Engineer Associate" />
 							<div className="cert-name">Databricks Certified Data Engineer Associate</div>
 						</div>
-						<div className="cert-card">
+						{/* <div className="cert-card">
 							<img src="/fabric certification.png" alt="Microsoft Certified: Fabric Data Engineer Associate" />
 							<div className="cert-name">Microsoft Certified: Fabric Data Engineer Associate</div>
+						</div> */}
+						<div className="cert-card">
+							<img
+								src="/fabric certification.png"
+								alt="Microsoft Certified: Fabric Data Engineer Associate"
+								style={{
+									height: "350px",
+									objectFit: "contain",
+									maxWidth: "100%",
+								}}
+							/>
+							<div className="cert-name">
+								Microsoft Certified: Fabric Data Engineer Associate
+							</div>
 						</div>
 						<div className="cert-card">
 							<img src="/m1.png" alt="Explore Core Data Concepts in Microsoft Azure" />
