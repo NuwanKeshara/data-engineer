@@ -25,7 +25,7 @@ const INFO = {
 	},
 
 	articles: {
-		title: "Driven by Curiosity and Love for Data Engineering, I Explore Data while Inspiring Others through Knowledge Sharing and Continuous Learning.",
+		title: "Driven by Curiosity and Love for Data Engineering, I Explore Data while Inspiring Others 📝",
 		description:
 			"A collection of my articles and blogs where I share insights, best practices and lessons learned in data engineering, big data systems and modern cloud platforms.",
 	},
