@@ -57,6 +57,8 @@ const Articles = () => {
                                         "spark.webp",
                                         "iot.jpg",
                                         "datavault.webp",
+                                        "python builtin.webp",
+                                        "sql_views.webp",
                                         "datawarehouse.webp",
                                         "scd.webp",
                                         "advancesql.webp",

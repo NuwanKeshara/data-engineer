@@ -53,6 +53,26 @@ const myArticles = [
 		};
 	},
 
+	// Python built in methods
+	function() {
+		return {
+			date: "03 February 2024",
+			title: "Python: A Guide to Essential Python Built-in Methods",
+			description: "Python, known for its simplicity and readability, comes equipped with a rich set of built-in methods that form the backbone of the language. These methods provide powerful functionalities, making Python a versatile and efficient programming language. In this blog, we’ll discuss Python’s built-in methods, demonstrating how they can be harnessed to streamline your code.",
+			link: "https://medium.com/@nuwankeshara12/python-useful-python-built-in-methods-dfce07e54900"
+		};
+	},
+
+	// SQL Mastery: Views, Stored Procedures and Triggers
+	function() {
+		return {
+			date: "03 February 2024",
+			title: "SQL Mastery: Views, Stored Procedures, Triggers",
+			description: "In this blog post, I walk through the fundamentals of SQL by demonstrating how to create and use views, stored procedures and triggers showing both simple and advanced examples, parameter passing, transaction control and conditional logic with the aim of helping developers master these powerful database constructs.",
+			link: "https://medium.com/@nuwankeshara12/sql-mastery-write-views-stored-procedures-triggers-b7d8d1bb11c7"
+		};
+	},
+
 	// 4. Dimensional Modeling: Types of Different Dimensions and Fact Tables
 	function() {
 		return {
