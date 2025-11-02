@@ -32,6 +32,47 @@ const INFO = {
 
 	projects: [
 		{
+			title: "SkyRoute: Flights Graph Network",
+			description:
+			<><br />A graph-based model of global flight routes built using Neo4j. Airports are modeled as nodes and routes as relationships, integrating airline data to visualize both domestic and international connections. Using Python and Cypher, the OpenFlights dataset was cleaned, transformed and loaded into Neo4j. The project enables shortest-path discovery, multi-hop route analysis and interactive geographic visualization through NeoDash. It strengthened my understanding of graph data modeling, query optimization and spatial analysis, demonstrating how Neo4j can uncover meaningful patterns in complex, interconnected data networks.<br /><br /> Tech stack: <b>Neo4j Graph Database, NeoDash, Neo4j AuraDB Managed Service, Python, Pandas </b></>,
+				
+			logo: [
+				"/neo4j.png",
+				"/neodash.png",
+				"/auradb.png",
+				"https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png"
+			],
+			linkText: "View Project",
+			link: "https://github.com/NuwanKeshara/SkyRoute",
+		},
+		{
+			title: "CryptoStreamX: Real-Time Crypto Trade Analytics Pipeline",
+			description:
+			<>CryptoStreamX is a fully streaming data pipeline that captures and processes live cryptocurrency trade data from Binance in real time. Built with Apache Kafka, the system ingests, buffers and distributes high throughput event streams. Kafka Streams and ksqlDB power on the fly transformations, aggregations and real-time analytics without external compute layers. Kafka Connect integrates seamlessly with ClickHouse, a high-performance columnar database, for ultra-fast storage and query execution on time-series trade data. This architecture delivers a scalable, fault-tolerant data flow from ingestion to analytics, enabling instant insights into trading activity, price movements and market patterns.<br /><br /> Tech stack: <b>Apache Kafka, ksqlDB, Kafka Streams, Kafka Connect, ClickHouse database, Docker, Python </b></>,
+				
+			logo: [
+				"/kafka.png",
+				"/Clickhouse.png",
+				"/ksqldb.svg",
+				"/docker.png"
+			],
+			linkText: "View Project",
+			link: "https://github.com/NuwanKeshara/CryptoStreamX",
+		},
+		{
+			title: "Smartly: Ad Campaign DataFlow",
+			description:
+			<>Ad Campaign Dataflow Pipeline: Built a fully automated data pipeline that ingests ad campaign CSV, transforms and cleans data, then loads into GCP BigQuery for analytics. Data Transformation & Orchestration: used DBT models and Airflow DAGs to clean, validate and transform raw data into structured schemas optimized for reporting and downstream tools.<br /><br /> Tech stack: <b>Python, SQL, DBT, Docker, Airflow, BigQuery</b></>,
+				
+			logo: [
+				"/big query.jpg",
+				"/airflow.png",
+				"/dbt-logo.webp"
+			],
+			linkText: "View Project",
+			link: "https://github.com/NuwanKeshara/Ad-Campaign-Dataflow",
+		},
+		{
 			title: "IOT Real-time processing with Azure Databricks",
 			description:
 				<>This project builds a real-time IoT data pipeline on Azure Databricks, ingesting weather sensor data via IoT Hub to Event Hub and storing it using the Medallion Architecture (Bronze/Silver/Gold) in Delta Lake. It includes streaming transformations, aggregation and cleansed data storage, with visualization in Power BI and CI versioning via Git and Azure DevOps.<br /><br /> Tech stack: <b>Azure, Databricks, Spark, Delta Lake, Azure IoT Hub, Azure Event Hub, Power BI, Git, Azure DevOps</b></>,
@@ -92,47 +133,7 @@ const INFO = {
 			linkText: "View Project",
 			link: "https://github.com/NuwanKeshara",
 		},
-		{
-			title: "Smartly: Ad Campaign DataFlow",
-			description:
-			<>Ad Campaign Dataflow Pipeline: Built a fully automated data pipeline that ingests ad campaign CSV, transforms and cleans data, then loads into GCP BigQuery for analytics. Data Transformation & Orchestration: used DBT models and Airflow DAGs to clean, validate and transform raw data into structured schemas optimized for reporting and downstream tools.<br /><br /> Tech stack: <b>Python, SQL, DBT, Docker, Airflow, BigQuery</b></>,
-				
-			logo: [
-				"/big query.jpg",
-				"/airflow.png",
-				"/dbt-logo.webp"
-			],
-			linkText: "View Project",
-			link: "https://github.com/NuwanKeshara/Ad-Campaign-Dataflow",
-		},
-		{
-			title: "CryptoStreamX: Real-Time Crypto Trade Analytics Pipeline",
-			description:
-			<>CryptoStreamX is a fully streaming data pipeline that captures and processes live cryptocurrency trade data from Binance in real time. Built with Apache Kafka, the system ingests, buffers and distributes high throughput event streams. Kafka Streams and ksqlDB power on the fly transformations, aggregations and real-time analytics without external compute layers. Kafka Connect integrates seamlessly with ClickHouse, a high-performance columnar database, for ultra-fast storage and query execution on time-series trade data. This architecture delivers a scalable, fault-tolerant data flow from ingestion to analytics, enabling instant insights into trading activity, price movements and market patterns.<br /><br /> Tech stack: <b>Apache Kafka, ksqlDB, Kafka Streams, Kafka Connect, ClickHouse database, Docker, Python </b></>,
-				
-			logo: [
-				"/kafka.png",
-				"/Clickhouse.png",
-				"/ksqldb.svg",
-				"/docker.png"
-			],
-			linkText: "View Project",
-			link: "https://github.com/NuwanKeshara/CryptoStreamX",
-		},
-		{
-			title: "SkyRoute: Flights Graph Network",
-			description:
-			<><br />A graph-based model of global flight routes built using Neo4j. Airports are modeled as nodes and routes as relationships, integrating airline data to visualize both domestic and international connections. Using Python and Cypher, the OpenFlights dataset was cleaned, transformed and loaded into Neo4j. The project enables shortest-path discovery, multi-hop route analysis and interactive geographic visualization through NeoDash. It strengthened my understanding of graph data modeling, query optimization and spatial analysis, demonstrating how Neo4j can uncover meaningful patterns in complex, interconnected data networks.<br /><br /> Tech stack: <b>Neo4j Graph Database, NeoDash, Neo4j AuraDB Managed Service, Python, Pandas </b></>,
-				
-			logo: [
-				"/neo4j.png",
-				"/neodash.png",
-				"/auradb.png",
-				"https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png"
-			],
-			linkText: "View Project",
-			link: "https://github.com/NuwanKeshara/SkyRoute",
-		},
+		
 	],
 };
 
