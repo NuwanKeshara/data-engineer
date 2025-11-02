@@ -119,6 +119,20 @@ const INFO = {
 			linkText: "View Project",
 			link: "https://github.com/NuwanKeshara/CryptoStreamX",
 		},
+		{
+			title: "SkyRoute: Flights Graph Network",
+			description:
+			<><br />A graph-based model of global flight routes built using Neo4j. Airports are modeled as nodes and routes as relationships, integrating airline data to visualize both domestic and international connections. Using Python and Cypher, the OpenFlights dataset was cleaned, transformed and loaded into Neo4j. The project enables shortest-path discovery, multi-hop route analysis and interactive geographic visualization through NeoDash. It strengthened my understanding of graph data modeling, query optimization and spatial analysis, demonstrating how Neo4j can uncover meaningful patterns in complex, interconnected data networks.<br /><br /> Tech stack: <b>Neo4j Graph Database, NeoDash, Neo4j AuraDB Managed Service, Python, Pandas </b></>,
+				
+			logo: [
+				"/neo4j.png",
+				"/neodash.png",
+				"/auradb.png",
+				"https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png"
+			],
+			linkText: "View Project",
+			link: "https://github.com/NuwanKeshara/SkyRoute",
+		},
 	],
 };
 
