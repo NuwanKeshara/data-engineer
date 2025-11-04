@@ -13,9 +13,11 @@ const INFO = {
 		},
 
 	homepage: {
-		title: "Data Engineering | Big Data | Cloud",
+		title: "Hi! I am Nuwan Keshara 🤓I Love Learning and Building Big Data Stuff...",
 		description:
-			"Hi 👋, I’m Nuwan Keshara, a passionate Data Engineer with a few years of hands-on experience designing and deploying scalable data pipelines, ETL processes and BI solutions. I love working with Python, SQL and Spark to turn messy data into meaningful insights through automation, optimized workflows and interactive dashboards. I enjoy building end-to-end data solutions that empower smarter decisions and drive real business impact.",
+			"Hi 👋, I’m Nuwan Keshara, a Data Engineer who loves working with data. I enjoy building end-to-end data solutions from designing data pipelines and ETL workflows to creating dashboards that turn messy data into clear insights. I mostly work with Python, SQL and Spark, and I’m always curious about how big data systems scale and perform, so I love diving deep into them.\
+			Right now, I’m reading Designing Data-Intensive Applications by Martin Kleppmann 📖 it’s been an amazing go deep into real-world data systems. If you have read it or have other great data books to recommend, I would love to chat about them!\
+			Outside of tech, I’m all about sports and the outdoors. I have won a few 🏆 in swimming 🏊, enjoy cycling and love spending time in nature 🌲. It keeps me balanced and full of energy. If we share any of these interests, feel free to connect!",
 	},
 
 	about: {
@@ -25,7 +27,7 @@ const INFO = {
 	},
 
 	articles: {
-		title: "Driven by Curiosity and Love for Data Engineering, I Explore Data while Inspiring Others 📝",
+		title: "My Collection of Articles and Blogs about Data 📝",
 		description:
 			"A collection of my articles and blogs where I share insights, best practices and lessons learned in data engineering, big data systems and modern cloud platforms.",
 	},
@@ -48,7 +50,7 @@ const INFO = {
 		{
 			title: "CryptoStreamX: Real-Time Crypto Trade Analytics Pipeline",
 			description:
-			<>CryptoStreamX is a fully streaming data pipeline that captures and processes live cryptocurrency trade data from Binance in real time. Built with Apache Kafka, the system ingests, buffers and distributes high throughput event streams. Kafka Streams and ksqlDB power on the fly transformations, aggregations and real-time analytics without external compute layers. Kafka Connect integrates seamlessly with ClickHouse, a high-performance columnar database, for ultra-fast storage and query execution on time-series trade data. This architecture delivers a scalable, fault-tolerant data flow from ingestion to analytics, enabling instant insights into trading activity, price movements and market patterns.<br /><br /> Tech stack: <b>Apache Kafka, ksqlDB, Kafka Streams, Kafka Connect, ClickHouse database, Docker, Python </b></>,
+			<>CryptoStreamX is a fully streaming data pipeline that captures and processes live cryptocurrency trade data from Binance in real time. Built with Apache Kafka, the system ingests, buffers and distributes high throughput event streams. Kafka Streams and ksqlDB power on the fly transformations, aggregations and real-time analytics without external compute layers. Kafka Connect integrates seamlessly with ClickHouse, a high-performance columnar database, for ultra-fast storage and query execution on time-series trade data.<br /><br /> Tech stack: <b>Apache Kafka, ksqlDB, Kafka Streams, Kafka Connect, ClickHouse database, Docker, Python </b></>,
 				
 			logo: [
 				"/kafka.png",
