@@ -1,10 +1,16 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 import "./styles/navBar.css";
 
 const NavBar = (props) => {
-	const { active } = props;
+	const { active, onNavigate } = props;
+
+	const handleClick = (e, sectionId) => {
+		e.preventDefault();
+		if (onNavigate) {
+			onNavigate(sectionId);
+		}
+	};
 
 	return (
 		<React.Fragment>
@@ -19,7 +25,7 @@ const NavBar = (props) => {
 										: "nav-item"
 								}
 							>
-								<Link to="/">Home</Link>
+								<a href="#home" onClick={(e) => handleClick(e, "home")}>Home</a>
 							</li>
 							<li
 								className={
@@ -28,7 +34,7 @@ const NavBar = (props) => {
 										: "nav-item"
 								}
 							>
-								<Link to="/projects">Projects</Link>
+								<a href="#projects" onClick={(e) => handleClick(e, "projects")}>Projects</a>
 							</li>
 						<li
 							className={
@@ -37,7 +43,7 @@ const NavBar = (props) => {
 									: "nav-item"
 							}
 						>
-							<Link to="/articles">Articles</Link>
+							<a href="#articles" onClick={(e) => handleClick(e, "articles")}>Articles</a>
 						</li>
 						<li
 							className={
@@ -46,16 +52,7 @@ const NavBar = (props) => {
 									: "nav-item"
 							}
 						>
-							<Link to="/certifications">Certifications</Link>
-						</li>
-						<li
-							className={
-								active === "about"
-									? "nav-item active"
-									: "nav-item"
-							}
-						>
-							<Link to="/about">About</Link>
+							<a href="#certifications" onClick={(e) => handleClick(e, "certifications")}>Certifications</a>
 						</li>
 						
 						</ul>
