@@ -13,7 +13,7 @@ const INFO = {
 		},
 
 	homepage: {
-		title: "Hi, I am Nuwan Keshara🤓 I Love Building and Learning Big Data Stuff...",
+		title: "Hi, I am Nuwan Keshara 🤓 I Love Building and Learning Big Data Stuff...",
 		description:
 			"Hi 👋, I’m Nuwan Keshara, a Data Engineer who loves working with data. I enjoy building end-to-end data solutions from data modeling, buidling data warehouses, designing data pipelines and ETL workflows to creating dashboards that turn messy data into clear insights. I mostly work with Python, SQL and Spark, and I’m always curious about how big data systems scale and perform, so I love diving deep into them. Right now, I’m reading Designing Data-Intensive Applications by Martin Kleppmann 📖 it’s been an amazing to go deep into real-world data systems. If you have read it or have other great data books to recommend, I’d love to hear about them!! Data Engineering is not just my job, it's my passion, In my free time I built data projects to explore modern data frameworks and experiment with different tools. You can find some of my data projects below, feel free to review them and I am always open to improvements. Outside of tech, I really love swimming 🏊 and have won few 🏆 as well, also enjoy cycling and love exploring nature 🌲. It keeps me balanced and full of energy. If we share any common interests, I would love to connect!",
 	},
