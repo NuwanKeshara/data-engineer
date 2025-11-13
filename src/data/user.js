@@ -83,7 +83,7 @@ const INFO = {
 				"/raspberrypi.png",
 			],
 			linkText: "View Project",
-			link: "https://github.com/NuwanKeshara/IOT-Real-time-processing-with-Azure-Databricks",
+			link: "https://github.com/NuwanKeshara/CloudBurst-DeltaLake",
 		},
 		{
 			title: "Snowflake Data Vault 2.0",
