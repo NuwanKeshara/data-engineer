@@ -39,7 +39,7 @@ const Projects = () => {
 					</div>
 					<div className="projects-container">
 						<div className="title projects-title">
-							My Data Projects...🛠️
+							Data Projects...🛠️
 						</div>
 
 						<div className="subtitle projects-subtitle">

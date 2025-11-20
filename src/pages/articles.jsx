@@ -52,6 +52,7 @@ const Articles = () => {
                             <div className="articles-wrapper">
                                 {myArticles.map((article, index) => {
                                     const articleImages = [
+                                        "DDIA.jpeg",
                                         "data-quality-checks.jpg",
                                         "starvssnowflake.png",
                                         "spark.webp",
