@@ -25,7 +25,7 @@ const INFO = {
 	},
 
 	articles: {
-		title: "My Collection of Articles and Blogs about Data 📝",
+		title: "Collection of Articles and Blogs about Data 📝",
 		description:
 			"A collection of my articles and blogs where I share insights, best practices and lessons learned in data engineering, big data systems and modern cloud platforms.",
 	},

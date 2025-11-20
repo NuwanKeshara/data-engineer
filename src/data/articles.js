@@ -1,4 +1,15 @@
 const myArticles = [
+	// The Art of Designing Scalable Data Systems
+	function() {
+		return {
+		date: "20 November 2025",
+		title: "The Art of Designing Scalable Data Systems",
+		description:
+			"I recently started reading ‘Designing Data-Intensive Applications’ and these first 03 chapters gave me a solid foundation about what modern data systems really try to solve. As a data engineer it helped me understand why systems behave the way they do and what trade-offs engineers constantly deal with.",
+		link: "https://medium.com/@nuwankeshara12/the-art-of-designing-scalable-data-systems-51291bde594e"
+		};
+	},
+
 	// Data Quality Checks — Part 1
 	function() {
 		return {
