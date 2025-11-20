@@ -240,7 +240,7 @@ const HomepageSingle = () => {
 					<section id="projects" ref={projectsRef} className="page-section">
 						<div className="projects-container">
 							<div className="title projects-title">
-								My Data Projects...🛠️
+								Data Projects...🛠️
 							</div>
 
 							<div className="subtitle projects-subtitle">
