@@ -13,7 +13,7 @@ const INFO = {
 		},
 
 	homepage: {
-		title: "Hi, I am Nuwan Keshara I Love Building and Learning Big Data Things...",
+		title: "Hi, I am Nuwan Keshara I Love Building and Exploring Big Data...",
 		description:
 			"Hi 👋 I’m Nuwan Keshara, a Data Engineer who builds reliable, scalable data systems. I work across the full stack of data engineering, from modeling and warehouse design to pipeline development and ELT/ETL workflows. Most of my work in Python, SQL and Spark, and I enjoy understanding why systems behave the way they do, not just how to use them. I’m currently studying Designing Data-Intensive Applications by Martin Kleppmann and diving deeper into distributed systems and real-world data architecture patterns. I usually turn what I learn into small, practical projects where I experiment with modern frameworks and push myself beyond the basics. Outside of tech, I spend a lot of time swimming and cycling, it keeps me balanced and focused. You will find some of my projects below. Feel free to check them out. I’m always improving and open to feedback or new ideas. If we share common interests, I would be happy to connect.",
 	},
