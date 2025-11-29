@@ -313,7 +313,7 @@ const HomepageSingle = () => {
 					{/* Certifications Section */}
 					<section id="certifications" ref={certificationsRef} className="page-section">
 						<div className="contact-container">
-							<div className="title contact-title">My Professional Certifications</div>
+							<div className="title contact-title">Professional Certifications</div>
 
 							<div className="subtitle contact-subtitle">
 								Thank you for taking the time to explore my certifications. Each one represents a step in my journey as a data engineer and reflects my commitment to continuous learning and professional growth.
